@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "synt-data-gen"
+version = "0.1.0"
+description = ""
+authors = ["Francesco Nuzzo <franuzzo966@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "synt_data_gen" }]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.9"
+synthia = "^1.1.0"
+matplotlib = "^3.6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.16.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
