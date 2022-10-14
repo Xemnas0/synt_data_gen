@@ -10,6 +10,8 @@ packages = [{ include = "synt_data_gen" }]
 python = ">=3.8,<3.9"
 synthia = "^1.1.0"
 matplotlib = "^3.6.0"
+scikit-learn = "^1.1.2"
+pyvinecopulib = "^0.6.2"
 
 
 [tool.poetry.group.dev.dependencies]
